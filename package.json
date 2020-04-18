@@ -2,10 +2,16 @@
   "name": "algorithms",
   "version": "0.0.1",
   "description": "Algorithm taught on udemy course https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/ ",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json"
+  },
   "devDependencies": {
+    "@types/jasmine": "^3.5.10",
     "@types/node": "^8.0.53",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.1",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.1"
+    "typescript": "^2.9.2"
   }
 }
