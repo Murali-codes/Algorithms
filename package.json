@@ -1,0 +1,11 @@
+{
+  "name": "algorithms",
+  "version": "0.0.1",
+  "description": "Algorithm taught on udemy course https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/ ",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
