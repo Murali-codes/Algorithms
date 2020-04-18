@@ -6,7 +6,7 @@ The frequency of values must be the same.
 
 */
 
-const same = (arr1, arr2) => {
+export const same = (arr1, arr2) => {
   if (arr1.length !== arr2.length) {
     return false;
   }
