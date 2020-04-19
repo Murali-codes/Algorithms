@@ -1,6 +1,6 @@
-import { same } from "../src/frequency_counter";
+import { same } from "../frequency_counter";
 
-describe("Frequency counter patter tests", () => {
+describe("Frequency counter pattern tests", () => {
   it("When input arrays are of different length function should return false", () => {
     let array1 = [1, 2, 4];
     let array2 = [3, 5];

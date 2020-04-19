@@ -12,11 +12,15 @@ export const same = (arr1, arr2) => {
   }
   let frequencyCounter1 = {};
   let frequencyCounter2 = {};
-  for (let key of arr1) {
-    frequencyCounter1[key] = (frequencyCounter1[key] || 0) + 1;
-  }
-  for (let key of arr2) {
-    frequencyCounter2[key] = (frequencyCounter2[key] || 0) + 1;
+  /* for (let key of arr1) {
+  //   frequencyCounter1[key] = (frequencyCounter1[key] || 0) + 1;
+  // }
+  // for (let key of arr2) {
+  //   frequencyCounter2[key] = (frequencyCounter2[key] || 0) + 1;
+   } */
+  for (let i = 0; i < arr1.length; i++) {
+    frequencyCounter1[arr1[i]] = (frequencyCounter1[arr1[i]] || 0) + 1;
+    frequencyCounter2[arr2[i]] = (frequencyCounter2[arr2[i]] || 0) + 1;
   }
   for (let key in frequencyCounter1) {
     if (!(Number(key) ** 2 in frequencyCounter2)) {
