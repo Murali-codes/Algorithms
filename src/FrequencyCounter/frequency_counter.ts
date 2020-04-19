@@ -35,4 +35,4 @@ export const same = (arr1, arr2) => {
 
 let arr1 = [1, 2, 3];
 let arr2 = [1, 4, 9];
-console.log(same(arr1, arr2));
+//console.log(same(arr1, arr2));

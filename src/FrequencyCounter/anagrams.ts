@@ -37,6 +37,6 @@ const str1 = [
   ["texttwisttime", "timetwisttext"],
 ];
 
-str1.forEach((i) => {
-  console.log(i[0], i[1], validAnagram(i[0], i[1]));
-});
+// str1.forEach((i) => {
+//   console.log(i[0], i[1], validAnagram(i[0], i[1]));
+// });
