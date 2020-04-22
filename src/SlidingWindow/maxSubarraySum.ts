@@ -12,7 +12,7 @@ export const maxSubarraySum = (arr, n) => {
   }
   tempSum = maxSum;
 
-  for (let i = n; i < arr.length - n + 1; i++) {
+  for (let i = n; i <= arr.length - n + 1; i++) {
     tempSum = tempSum - arr[i - n] + arr[i];
     maxSum = Math.max(tempSum, maxSum);
   }
@@ -20,4 +20,4 @@ export const maxSubarraySum = (arr, n) => {
   return maxSum;
 };
 
-console.log(maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2));
+console.log(maxSubarraySum([100, 200, 300, 400], 2));
